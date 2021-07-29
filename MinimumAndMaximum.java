@@ -9,7 +9,6 @@ class MinimumAndMaximum
             if(x[i]>maximum) maximum=x[i];
         }
         return maximum;
-
     }
     public int findMinNumber(int[] y)
     {
@@ -19,7 +18,6 @@ class MinimumAndMaximum
             if(y[i]<minimum) minimum=y[i];
         }
         return minimum;
-
     }
     public static void main(String gg[])
     {
@@ -39,5 +37,4 @@ class MinimumAndMaximum
         System.out.println("Minimum number is : "+min);
         sc.close();
     }
-
 }
