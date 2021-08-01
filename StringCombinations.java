@@ -23,7 +23,6 @@ class StringCombinations
             str[start]=str[i];
             str[i]=g;
         }
-
     }
     public static void main(String gg[])
     {
